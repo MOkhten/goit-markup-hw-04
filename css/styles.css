@@ -187,31 +187,16 @@ ul {
     margin-bottom: 50px;
 }
 
-.list-item::before{
-    display:flex;
-    content: "";
+.list-item {
     width: 270px;
     height: 120px;
-    background-color: #F5F4FA;
-    background-repeat: no-repeat;
-    background-position: center;
+    margin-right: 30px;
+    }
+    
+    .listitem:last-child {
+        margin-right: 0px;
 }
 
-.list-item:nth-child(1)::before{
-    background-image: url(../img/Vector.jpg);
-}
-
-.list-item:nth-child(2)::before {
-    background-image: url(../img/Vecto.jpg);
-}
-
-.list-item:nth-child(3)::before {
-    background-image: url(../img/Vect.jpg);
-}
-
-.list-item:nth-child(4)::before {
-    background-image: url(../img/astronaut.jpg);
-}
 
 .section{
     padding-top: 94px;
@@ -235,6 +220,18 @@ ul {
 .feature-list {
     display: flex;
 }
+
+.feature-link{
+    width: 100%;
+        height: 100%;
+        background-color: #F5F4FA;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+
 
 .title-list {
     margin: 0pc;
@@ -318,7 +315,7 @@ ul {
     justify-content: center;
 }
 
-.masters-soc-item {
+.masters-soc-icon {
     fill: #AFB1B8;
 }
 
@@ -327,8 +324,8 @@ ul {
     background-color: #2196F3;
 }
 
-.masters-soc-link:hover .masters-soc-item,
-.masters-soc-link:focus .masters-soc-item {
+.masters-soc-link:hover .masters-soc-icon,
+.masters-soc-link:focus .masters-soc-icon {
     fill: #FFFFFF;
 }
 
