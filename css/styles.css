@@ -116,19 +116,25 @@ ul {
 }
 
 .links::before{
-    width: 16px;
-    height: 12px;
     content:"" ;
-    background-image: url(../img/envelope.svg
-    );
     margin-right: 10px;
 }
 
-.phone::before{
-    background-image: url(../img/Vector.svg);
-    width: 10px;
-    height: 16px;
+.soc-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.soc-icon {
+    fill: #757575;
 }
+
+
+.soc-icon:hover,
+.soc-icon:focus {
+    fill: #2196F3;
+}
+
 
 .auth-nav .links:hover,
 .auth-nav .links:focus {
