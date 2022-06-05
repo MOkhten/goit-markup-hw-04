@@ -110,6 +110,10 @@ ul {
     margin-bottom: 0px;
 }
 
+.items {
+    display: flex;
+}
+
 .links{
     display: inline-flex;
     align-items: center;
@@ -130,6 +134,8 @@ ul {
     fill: #757575;
 
 }
+
+
 
 
 .soc-icon:hover,
