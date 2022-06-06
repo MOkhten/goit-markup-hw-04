@@ -370,8 +370,7 @@ ul {
 
 .client-list{
     display: flex;
-    margin-right: auto;
-    margin-left: auto;
+
 }
 
 .client-item {
@@ -436,9 +435,11 @@ ul {
 
 .online-title {
     font-size: 14px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 1.14;
     color: var(--text-color-secondary);
+    padding-bottom: 0px;
+    margin-bottom: 20px;
 
 }
 
@@ -461,7 +462,9 @@ ul {
     background-color: #2196F3;
 }
 
-
+.adress-footer {
+    margin-right: 70px;
+}
 
 .adress-info {
     color: rgba(255, 255, 255, 0.6);
@@ -486,6 +489,7 @@ ul {
 .adress-nav {
     text-decoration: none;
     padding: 0px;
+    margin: 0px;
 }
 
 /* portfolio */
