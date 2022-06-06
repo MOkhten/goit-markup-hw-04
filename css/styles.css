@@ -319,6 +319,7 @@ ul {
 
 .masters-soc-list{
     display: flex;
+    padding: 0px;
 }
 
 .masters-soc-item{
@@ -403,6 +404,11 @@ ul {
 }
 
 /* footer */
+
+.contact-wrap .container {
+    display: flex;
+}
+
 .adress {
     background-color: #2F303A;
     padding-top: 60px;
@@ -427,6 +433,35 @@ ul {
     margin: 0px;
     
 }
+
+.online-title {
+    font-size: 14px;
+    font-weight: 700px;
+    line-height: 1.14;
+    color: var(--text-color-secondary);
+
+}
+
+.online-soc-link {
+    width: 100%;
+    height: 100%;
+    background-color: #2F303A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.online-soc-icon {
+    fill: #FFFFFF;
+}
+
+.online-soc-link:hover,
+.online-soc-link:focus {
+    background-color: #2196F3;
+}
+
+
 
 .adress-info {
     color: rgba(255, 255, 255, 0.6);
