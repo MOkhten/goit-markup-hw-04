@@ -227,7 +227,12 @@ ul {
 
 .section.no-padding {
     padding-top: 0px;
-    padding-bottom: 94px;
+    padding-bottom: 0px;
+}
+
+.section.half-padding {
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 /* features */
