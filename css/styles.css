@@ -339,6 +339,7 @@ ul {
     display: flex;
     padding-top: 0px;
     padding-bottom: 30px;
+    justify-content: center;
 }
 
 .masters-soc-item{
