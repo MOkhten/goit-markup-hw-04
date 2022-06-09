@@ -154,11 +154,9 @@ ul {
 }
 
 
-
-
 .soc-icon:hover,
 .soc-icon:focus {
-    fill: #2196F3;
+    fill: currentColor;
 }
 
 
