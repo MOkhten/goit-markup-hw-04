@@ -124,10 +124,6 @@ ul {
     align-items: center;
 }
 
-.links:hover,
-.links:focus {
-    fill: #2196F3;
-}
 
 /* .links::before{ 
     content:"" ;
@@ -169,8 +165,10 @@ ul {
 .auth-nav .links:hover,
 .auth-nav .links:focus {
     color: var(--accent-color);
+    fill: var(--accent-color);
+    fill: currentColor;
+  
 }
-
 /* hero */
 
 .hero {
