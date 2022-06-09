@@ -124,10 +124,26 @@ ul {
     align-items: center;
 }
 
-.links::before{
-    content:"" ;
-    margin-right: 10px;
+.links:hover,
+.links:focus {
+    fill: #2196F3;
 }
+
+/* .links::before{ 
+    content:"" ;
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    background-image: url(../img/envelope.svg);
+}
+
+.phone::before{
+    content: "";
+        width: 10px;
+        height: 16px;
+        margin-right: 10px;
+        background-image: url(../img/vector.svg);
+}*/
 
 .soc-link {
     display: flex;
